@@ -1,0 +1,19 @@
+{
+	"name": "sales_avro",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Avro",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sales_gmrb",
+				"fileSystem": "enterprise-landing"
+			}
+		},
+		"schema": []
+	}
+}
